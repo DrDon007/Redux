@@ -22,7 +22,7 @@ const App = () => {
             <a
               className="quantity__minus"
               title="Decrement"
-              onClick={() => dispatch(decNumber())}
+              onClick={() => dispatch(decNumber(2))}
             >
               <span>-</span>
             </a>
